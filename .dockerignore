@@ -1,0 +1,10 @@
+.git
+.idea
+.vscode
+bin
+dist
+tmp
+*.log
+
+# se você tiver diretórios de build/artefatos
+k8s
