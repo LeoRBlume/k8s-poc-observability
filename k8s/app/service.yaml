@@ -4,10 +4,11 @@ metadata:
   name: k8s-poc
   namespace: default
 spec:
-  type: ClusterIP
+  type: NodePort
   selector:
     app: k8s-poc
   ports:
     - name: http
       port: 80
       targetPort: 8080
+      nodePort: 30080
